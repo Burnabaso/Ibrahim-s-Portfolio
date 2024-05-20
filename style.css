@@ -1,0 +1,21 @@
+
+
+#nav-bar-list
+{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    padding: 10px;
+}
+.nav-bar-list-items{
+    float:left;
+  
+}
+.nav-bar-list-items a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
