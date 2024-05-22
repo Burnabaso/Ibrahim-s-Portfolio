@@ -24,36 +24,28 @@
     <!--Header including nav-bar and banner-img-->
     <header>
       <!--Nav bar layout-->
-      <nav id="nav-bar">
+      <nav>
         <ul style="list-style-type: none" id="nav-bar-list">
-          <li class="nav-bar-list-items">
-            <a href="#know-me">Get to Know Me</a>
-          </li>
+          <li class="nav-bar-list-items"><a href="#know-me">Get to Know Me</a></li>
+          <li class="nav-bar-list-items"><a href="#career">Career</a></li>
           <li class="nav-bar-list-items"><a href="#prj-pg">Projects</a></li>
           <li class="nav-bar-list-items"><a href="#skills-pg">Skills</a></li>
           <li class="nav-bar-list-items"><a href="#ed-pg">Education</a></li>
-          <li class="nav-bar-list-items">
-            <a href="#personal-int-pg">Personal Interests</a>
-          </li>
-          <li class="nav-bar-list-items">
-            <a href="#testi-pg">Testimonials</a>
-          </li>
-          <li class="nav-bar-list-items"><a href="#contact-pg">Reach Me</a></li>
+          <li class="nav-bar-list-items"><a class="nav-link" href="#personal-int-pg">Personal Interests</a></li>
+          <li class="nav-bar-list-items"><a class="nav-link" href="#testi-pg">Testimonials</a></li>
+          <li class="nav-bar-list-items"><a class="nav-link" href="#contact-pg">Reach Me</a></li>
         </ul>
       </nav>
-      <!--banner Image-->
-      <img
-        src="/Resources/banner.png"
-        alt="Passionate | Self-Taught FSW Developer | Human"
-        id="banner-img"
-      />
+     
     </header>
     <!--Section About Ibrahim-->
-    <div class="main-sec-style">
-      <div class="sec-headline"><h1>How I see Life...</h1></div>
-      <div class="main-sec">
-        <div id="passion" class="about-me">
-          <br />
+    <div class="main-section">
+      <div class="sec-headline">
+        <h1>How I Visualize Life</h1>
+      </div>
+      <div class="sec-content" id="about-content">
+        <!-- About Me -->
+        <div class="about-container">
           <p>
             If I can describe myself in one word, it will be "Passionate"! I
             believe that having passion for something leads to success in it.
@@ -62,8 +54,8 @@
             of who I am.
           </p>
         </div>
-        <!--Quote that will be set aside on the right-->
-        <div id="quote" class="about-me">
+        <!-- Quote -->
+        <div id="quote">
           <aside>
             <h2>
               <q
@@ -74,11 +66,8 @@
             <h3><em>Winston Churchill</em></h3>
           </aside>
         </div>
-        <div
-          id="optimism"
-          class="about-me"
-          style="position: relative; top: 10px"
-        >
+        <!-- About Me -->
+        <div class="about-container">
           <p>
             Optimism in life means acknowledging life’s hardships and knowing
             that at the end of the day what counts is our efforts to resolve the
@@ -89,19 +78,13 @@
           </p>
         </div>
       </div>
-
-      <!--Section about Career Path-->
+    </div>
+    <!--Section about Career Path-->
+    <div class="main-section">
       <div class="sec-headline">
-        <h1>From a Mechatronics Engineer to a Full-Stack Web Developer</h1>
+        <h1>My Career Shift</h1>
       </div>
-      <div id="fsd-switch" class="main-sec">
-        <!--Just a test for an image decoration-->
-        <img
-          src="/Resources/favicon.jpeg"
-          style="float: right"
-          width="200"
-          height="200"
-        />
+      <div class="sec-content" id="career-content">
         <p>
           As you will read in my education page, I acquire a Bachelor of
           Engineering degree in Mechatronics Engineering. During my major
@@ -118,203 +101,198 @@
           and discipline I built up provided me with enough drive to go through
           the journey of self-learning “Full Stack Web Development”. Some might
           say why waste four years on a field that you will not pursue a career
-          in. The way I perceive it is as follows: In those four years I learned
+          in? The way I perceive it is as follows: In those four years I learned
           how to think as an engineer, as a problem solver as a critical thinker
           and grew as an interactive person within my environment. I do not
           believe in mistakes; I only believe that life is series of decisions
           that we make. Those decisions lead to experiences that shape who we
           are and will shape our future selves. I am privileged to introduce
           myself as a self-taught full stack web developer in the making, and
-          hope you” enjoy my portfolio that I have built as my first project”
+          hope<strong> you enjoy my portfolio that I have built as my first project</strong>
           during my learning path.
         </p>
       </div>
     </div>
-    <!--Section about Porjects Done-->
-    <div class="main-sec-style">
-      <div class="sec-headline" id="prj-pg">
-        <h1 class="pg-title">My Creations</h1>
+    <!--Section about Projects Done-->
+    <div class="main-section">
+      <div class="sec-headline">
+        <h1>My Creations</h1>
       </div>
-      <div class="main-sec">
-        <p>
-          This portfolio is a living example of my first and continuously
-          improving project during my learning path in Full Stack Web
-          Development
-        </p>
+      <div class="sec-content" id="projects-content">
+        <div class="project-container"></div>
+        <div class="project-container"></div>
+        <div class="project-container"></div>
       </div>
     </div>
-
     <!--Section about Skills-->
-    <div class="main-sec-style">
+    <div class="main-section">
       <div class="sec-headline">
-        <h1 class="pg-title" id="skills-pg">
-          Skilltopia: Where Expertise Thrives
-        </h1>
+        <h1>What Distinguishes Ibrahim</h1>
       </div>
-
-      <div class="main-sec">
-        <h3 class="main-skills-title">Technical Skills</h3>
-        <!--Each Main Skill Section is an ordered list-->
-        <ol class="main-skills-lst">
-          <li>
-            Proficient in programming langauges: Python, C++, Javascript,
-            Scratch
-          </li>
-          <li>
-            Experienced in Front-End Web Development: Html, CSS, Tailwind,
-            React, Next.js
-          </li>
-          <li>
-            Familiar with Database Management: SQL, Database Design, Query
-            Optimization
-          </li>
-          <li>
-            Proficient in Development Tools: Visual Studio Code, Visual Studio,
-            Git, Github
-          </li>
-          <li>Experienced in Microsoft Office Suite</li>
-        </ol>
-        <h3 class="main-skills-title">Soft Skills</h3>
-        <ol class="main-skills-lst">
-          <li>Professional Public Speaker in <b>Toastmasters</b></li>
-          <li>Effective Listener</li>
-          <li>Ability to work with a team and autonomously</li>
-          <li>Experienced motivational speaker</li>
-          <li>Ability to work under pressure</li>
-          <li>Skilled in using <b>Toggl</b> for efficient time tracking</li>
-          <li>
-            Proficient in utilizing collaboration platforms such as <b>Slack</b>
-          </li>
-        </ol>
-
-        <h3 class="main-skills-title">Analytical Skills</h3>
-        <ol class="main-skills-lst">
-          <li>Skilled in troubleshooting software bugs and logic errors</li>
-          <li>Competent in analyzing algorithm performance and efficiency</li>
-          <li>Proficient in optimizing software algorithms and code</li>
-          <li>
-            Experienced in prototyping and experimenting with new ideas and
-            concepts
-          </li>
-          <li>Demonstrated ability to think creatively</li>
-          <li>Effective at translating ideas into action</li>
-        </ol>
+      <div class="sec-content">
+        <!-- Technical Skills -->
+        <div class="main-skill-container">
+          <h2>Technical Skills</h2>
+          <div class="sub-skill-container">
+            <p>Proficient in programming langauges: Python, C++, Javascript, Scratch</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Experienced in Front-End Web Development: Html, CSS, Tailwind, React, Next.js</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Familiar with Database Management: SQL, Database Design, Query Optimization</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Proficient in Development Tools: Visual Studio Code, Visual Studio, Git, Github</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Experienced in Microsoft Office Suite</p>
+          </div>
+          <div class="sub-skill-container"></div>
+        </div>
+        <!-- Soft Skills -->
+        <div class="main-skill-container">
+          <h2>Soft Skills</h2>
+          <div class="sub-skill-container">
+            <p>Professional Public Speaker in Toastmasters</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Effective Listener</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Ability to work with a team and autonomously</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Experienced motivational speaker</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Ability to work under pressure</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Skilled in using Toggl for efficient time tracking</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Proficient in utilizing collaboration platforms such as Slack</p>
+          </div>
+        </div>
+        <!-- Analytical Skills -->
+        <div class="main-skill-container">
+          <h2>Analytical Skills</h2>
+          <div class="sub-skill-container">
+            <p>Skilled in troubleshooting software bugs and logic errors</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Competent in analyzing algorithm performance and efficiency</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Proficient in optimizing software algorithms and code</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Experienced in prototyping and experimenting with new ideas and concepts</p>
+          </div>
+          <div class="sub-skill-container">
+            <p>Effective at translating ideas into action</p>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!--Education Section-->
-    <div class="main-sec-style">
-      <div class="sec-headline" id="ed-pg">
-        <h1 class="pg-title">My Academic Journey</h1>
+    <!-- Section about Education -->
+    <div class="main-section">
+      <div class="sec-headline">
+        <h1>My Academic Journey</h1>
       </div>
-
-      <div class="main-sec">
-        <div class="ed-container" id="current-ed">
+      <div class="sec-content">
+        <div class="ed-container">
           <h2>SE Factory Trainee</h2>
-          <h3>Attending Foundations of Computer Science Bootcamp</h3>
-          <h3>11 May, 2024 - July, 2024</h3>
+          <h3>Foundation of Computer Science Bootcamp</h3>
+          <h4>May, 2024 - July, 2024</h4>
         </div>
-
         <div class="ed-container">
-          <h2>Bachelor's of Engineering in Mechatronics Engineering</h2>
+          <h2>BE in Mechatronics Engineering</h2>
           <h3>Rafik Hariri University</h3>
-          <h3>2020 - 2024</h3>
+          <h4>2020 - 2024</h4>
         </div>
-
         <div class="ed-container">
-          <h2>Minored in Computer Science</h2>
+          <h2>Minor in Computer Science</h2>
           <h3>Rafik Hariri University</h3>
-          <h3>2020 - 2024</h3>
+          <h4>2020 - 2024</h4>
         </div>
       </div>
     </div>
-    <!--Extra Activities Section-->
-    <div class="main-sec-style">
+    <!-- Section about Hobbies -->
+    <div class="main-section">
       <div class="sec-headline">
-        <h1 class="pg-title">Ibrahim's Other Life</h1>
+        <h1>My Other Life</h1>
       </div>
-
-      <div id="personal-int-pg" class="main-sec">
-        <p>
-          I cherish the hobbies I have since they are the ones that keep me
-          focused on my goals in life. The primary one is Table Tennis. I
-          started playing it when I was 15 years old, and over the years I
-          enhanced my game level tremendously. Other hobbies that I like are
-          Reading, cooking, singing, and editing Videos.
-        </p>
-      </div>
-    </div>
-
-    <!--Testimonials Section-->
-    <div class="main-sec-style">
-      <div class="sec-headline" id="testi-pg">
-        <h1 class="pg-title">Glowing Testimonials</h1>
-      </div>
-      <!--Thinking of making it as a carousel-->
-      <div class="main-sec">
-        <ul id="testi-lst">
-          <li class="testimonial">
-            <q
-              >Ibrahim has proven to be an excellent team player with good
-              communication skills</q
-            >
-            <em>Dr. Ahmad Chaaban</em
-            ><i
-              >, Professor in Mechanical & Mechatronics Engineering Department
-              at Rafik Hariri University</i
-            >
-          </li>
-
-          <li class="testimonial">
-            <q
-              >Ibrahim has always expressed a deep interest in expanding his
-              technical knowledge</q
-            ><em>Dr. Ahmad Chaaban</em
-            ><i
-              >, Professor in Mechanical & Mechatronics Engineering Department
-              at Rafik Hariri University</i
-            >
-          </li>
-
-          <li class="testimonial">
-            <q
-              >Mr. Itani engaged in various projects and tasks eagerly seeking
-              opportunities to learn and contribute to the team</q
-            ><em>Eng. Hadi Al Katranji</em
-            ><i>, IoT Engineer at EKT Katrangi Bros</i>
-          </li>
-
-          <li class="testimonial">
-            <q
-              >One of Ibrahim's most noteworthy attributes was his willingness
-              to learn from his colleagues and mentors</q
-            ><em>Eng. Hadi Al Katranji</em
-            ><i>, IoT Engineer at EKT Katrangi Bros</i>
-          </li>
-        </ul>
+      <div class="sec-content">
+        <table id="hobbies-table">
+          <tr>
+            <td>Table Tennis</td>
+            <td>Cooking</td>
+            <td>Reading</td>
+          </tr>
+          <tr>
+            <td>Public Speaking</td>
+            <td>Content Creation</td>
+            <td>Active Outdoor Routine</td>
+          </tr>
+        </table>
       </div>
     </div>
-    <!--Contact Me Section-->
-
-    <div id="contact-sec-style">
-      <div class="sec-headline" id="contact-pg">
-        <h1 class="pg-title">Let's Get in Touch</h1>
+    <!-- Section about Testimonials -->
+    <div class="main-section">
+      <div class="sec-headline">
+        <h1>Glowing Testimonials</h1>
       </div>
-      <div class="main-sec" id="contact-content">
-        <p>You can contact me via email:<b>i.itani2002@gmail.com</b></p>
-        <p>
-          Let us connect on
-          <b
-            ><a
-              href="https://www.linkedin.com/in/ibrahim-itani/"
-              target="_blank"
-              >LinkedIn</a
-            ></b
-          >
-        </p>
+      <!-- apply carousel for testimonials -->
+      <div class="sec-content">
+        <div class="carousel" id="testi-carousel">
+          <input type="radio" name="testis" id="testi-1" checked>
+          <input type="radio" name="testis" id="testi-2">
+          <input type="radio" name="testis" id="testi-3">
+      
+          <div class="testis">
+            <div class="testi" id="testi1">
+              <h2><q>Ibrahim has proven to be an excellent team 
+                player with good communication skills</q></h2>
+              <h3>Dr. Ahmad Chaaban</h3>
+              <h4><i>Professor in Mechanical & Mechatronics Engineering Department
+                at Rafik Hariri University</i></h4>
+                
+            </div>
+            <div class="testi" id="testi2">
+              <h2><q>Mr. Itani engaged in various projects and tasks eagerly 
+                seeking opportunities to learn and contribute to the team</q></h2>
+              <h3>Eng Hadi Katrangi</h3>
+              <h4><i>IoT Engineer at EKT Katrangi Bros</i></h4>
+                
+            </div>
+          </div>
+          <div class="testi-navigation">
+            <label for="testi-1" class="nav-button"></label>
+            <label for="testi-2" class="nav-button"></label>
+            <label for="testi-3" class="nav-button"></label>
+          </div>
+        </div>
       </div>
     </div>
-
+    <!-- Section about Contact Me -->
+    <div class="main-section">
+      <div class="sec-headline">
+        <h1>Let's Get in Touch!</h1>
+      </div>
+      <div class="sec-content">
+        <div class="contact-container">
+          <h2><a href="mailto:i.itani2002@gmail.com" target="_blank">E-mail</a></h2>
+        </div>
+        <div class="contact-container">
+          <h2><a href="https://www.linkedin.com/in/ibrahim-itani/" target="_blank"></a>Linked In</h2>
+        </div>
+        <div class="contact-container">
+          <h2><a href="https://github.com/Burnabaso" target="_blank">GitHub</a></h2>
+        </div>
+      </div>
+    </div>
     <!--For copyright & referrals-->
     <footer>
       <p class="foot-content" style="margin-bottom: 10px">
