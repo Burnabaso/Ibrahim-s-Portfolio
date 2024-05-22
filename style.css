@@ -1,21 +1,122 @@
-
-
-#nav-bar-list
-{
-    width: 100%;
-    margin: 0px;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: aquamarine;
-    padding: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
-.nav-bar-list-items{
-    float:left;
+p,
+li,
+#quote {
+  font-size: 1.4vw;
+}
+h1 {
+  font-size: 3vw;
+}
+hr {
+  overflow: hidden;
+  width: 0;
+  height: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+}
+
+#nav-bar {
+  margin-top: 0.6vh;
+  top: 0;
+  width: 100vw;
+}
+
+#nav-bar-list {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  padding: 10px;
+  border: 0;
+}
+.nav-bar-list-items {
+  float: left;
+  padding: 20px;
+  font-size: 1.5vw;
+}
+.nav-bar-list-items:hover {
+  background-color: hsla(20, 80%, 50%, 0.7);
+  border-radius: 30px;
+  font-weight: bold;
+}
+.nav-bar-list-items a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+#banner-img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+}
+.main-sec-style{
   
+  padding: 1vb;
+  margin-left: 0.1vw;
+  background-color: hsla(20, 80%, 50%, 0.2);
+  width: 100vw;
 }
-.nav-bar-list-items a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    text-align: center;
+#contact-sec-style
+{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  border: 50px solid hsla(20, 94%, 27%, 0.7);
+  background-color: hsla(20, 80%, 50%, 0.2);
+  width: 100vw;
+}
+#contact-content
+{
+  align-items: center;
+  width: 100vw;
+}
+.main-sec {
+  margin-bottom: 14.28vh;
+  padding: 2vh 2vw;
+}
+.main-skills-lst {
+  margin-left: 2vw;
+}
+#quote {
+  float: right;
+  width: 40vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  border-style: groove;
+  border-radius: 50px;
+  border-width: 5px;
+  border-color: hsla(20, 80%, 50%, 0.7);
+  padding: 2vh;
+}
+.sec-headline {
+  padding: 2vw;
+  background-color: hsla(20, 73%, 41%, 0.7);
+  width: fit-content;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.about-me {
+  box-sizing: border-box;
+  width: 60vw;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: hsla(20, 80%, 50%, 0.7);
+  padding: 2vh;
 }

@@ -1,71 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Setting Meta data-->
     <meta charset="UTF-8" />
     <meta name="author" content="Ibrahim Itani" />
     <meta
       name="keywords"
-      content="hobbies,career,eduaction,activities,self-development"
+      content="hobbies,career,eduaction,activities,self-development,Full-Stack"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ibrahim Itani's Portfolio</title>
+    <!--Web Title-->
+    <title>Ibrahim Itani's Portfolio &#128187;</title>
+    <!--Links to CSS file and favicon-->
     <link rel="stylesheet" href="/style.css" />
     <link
       rel="shortcut icon"
-      href="/Resources/Favicon.jpeg"
+      href="/Resources/favicon.jpeg"
       type="image/x-icon"
     />
   </head>
-  <body>
-    <header>
-      <h1>SIC . PARVIS . MAGNA | Greatness From Small Beginnings</h1>
-    </header>
-    <ul style="list-style-type: none;" id="nav-bar-list">
-      <li class="nav-bar-list-items"><a class="active" href="#intro">Get to Know Me</a></li>
-      <li class="nav-bar-list-items"><a href="#prj-pg">Projects</a></li>
-      <li class="nav-bar-list-items"><a href="#skills-pg">Skills</a></li>
-      <li class="nav-bar-list-items"><a href="#ed-pg">Education</a></li>
-      <li class="nav-bar-list-items"><a href="#personal-int-pg">Personal Interests</a></li>
-      <li class="nav-bar-list-items"><a href="#testi-pg">Testimonials</a></li>
-      <li class="nav-bar-list-items"> <a href="#contact-pg">Reach Me</a></li>
-    </ul>
 
-    <div id="intro" class="mainSec">
-      <h1>Welcome to My World!</h1>
-      <div id="intro-quote">
-        <h2>
-          <q
-            >Success is not final, Failure is not fatal, It's the courage to
-            continue that counts</q
-          >
-        </h2>
-        <h3><em>Winston Churchill</em></h3>
-      </div>
+  <body>
+    <!--Header including nav-bar and banner-img-->
+    <header>
+      <!--Nav bar layout-->
+      <nav id="nav-bar">
+        <ul style="list-style-type: none" id="nav-bar-list">
+          <li class="nav-bar-list-items">
+            <a href="#know-me">Get to Know Me</a>
+          </li>
+          <li class="nav-bar-list-items"><a href="#prj-pg">Projects</a></li>
+          <li class="nav-bar-list-items"><a href="#skills-pg">Skills</a></li>
+          <li class="nav-bar-list-items"><a href="#ed-pg">Education</a></li>
+          <li class="nav-bar-list-items">
+            <a href="#personal-int-pg">Personal Interests</a>
+          </li>
+          <li class="nav-bar-list-items">
+            <a href="#testi-pg">Testimonials</a>
+          </li>
+          <li class="nav-bar-list-items"><a href="#contact-pg">Reach Me</a></li>
+        </ul>
+      </nav>
+      <!--banner Image-->
       <img
-        src="/Resources/Favicon.jpeg"
-        style="float: right"
-        width="200"
-        height="200"
+        src="/Resources/banner.png"
+        alt="Passionate | Self-Taught FSW Developer | Human"
+        id="banner-img"
       />
-      <div id="mindset">
-        <h4>How I see Life...</h4>
-        <p>
-          If I can describe myself in one word, it will be "Passionate"! I
-          believe that having passion for something leads to success in it. That
-          is why I spend time knowing what I like to do, and what represents me
-          as Ibrahim. When I find this passion, it becomes part of who I am.
-        </p>
-        <p>
-          Optimism in life means acknowledging life’s hardships and knowing that
-          at the end of the day what counts is our efforts to resolve the issue
-          despite the result. I try my best to keep a smile on my face and
-          sprinkle of optimism in my life because without those two things, life
-          would become a prison amidst the blessings I have in life.
-        </p>
+    </header>
+    <!--Section About Ibrahim-->
+    <div class="main-sec-style">
+      <div class="sec-headline"><h1>How I see Life...</h1></div>
+      <div class="main-sec">
+        <div id="passion" class="about-me">
+          <br />
+          <p>
+            If I can describe myself in one word, it will be "Passionate"! I
+            believe that having passion for something leads to success in it.
+            That is why I spend time knowing what I like to do, and what
+            represents me as Ibrahim. When I find this passion, it becomes part
+            of who I am.
+          </p>
+        </div>
+        <!--Quote that will be set aside on the right-->
+        <div id="quote" class="about-me">
+          <aside>
+            <h2>
+              <q
+                >Success is not final, Failure is not fatal, It's the courage to
+                continue that counts</q
+              >
+            </h2>
+            <h3><em>Winston Churchill</em></h3>
+          </aside>
+        </div>
+        <div
+          id="optimism"
+          class="about-me"
+          style="position: relative; top: 10px"
+        >
+          <p>
+            Optimism in life means acknowledging life’s hardships and knowing
+            that at the end of the day what counts is our efforts to resolve the
+            issue despite the result. I try my best to keep a smile on my face
+            and sprinkle of optimism in my life because without those two
+            things, life would become a prison amidst the blessings I have in
+            life.
+          </p>
+        </div>
       </div>
-      <hr />
-      <div id="fsd-switch">
-        <h4>From a Mechatronics Engineer to a Full-Stack Web Developer</h4>
+
+      <!--Section about Career Path-->
+      <div class="sec-headline">
+        <h1>From a Mechatronics Engineer to a Full-Stack Web Developer</h1>
+      </div>
+      <div id="fsd-switch" class="main-sec">
+        <!--Just a test for an image decoration-->
+        <img
+          src="/Resources/favicon.jpeg"
+          style="float: right"
+          width="200"
+          height="200"
+        />
         <p>
           As you will read in my education page, I acquire a Bachelor of
           Engineering degree in Mechatronics Engineering. During my major
@@ -94,128 +130,199 @@
         </p>
       </div>
     </div>
-
-    <div id="prj-pg" class="mainSec">
-      <h1 class="pg-title">My Creations</h1>
-      <p>
-        This portfolio is a living example of my first and continuously
-        improving project during my learning path in Full Stack Web Development
-      </p>
-    </div>
-
-    <div id="skills-pg" class="mainSec">
-      <h1 class="pg-title">Skilltopia: Where Expertise Thrives</h1>
-      <ol id="skills-main-lst">
-        <li>
-          <h3 id="tech-skills">Technical Skills:</h3>
-          <ul>
-            <li>Proficient in Python</li>
-            <li>
-              Well practiced in Front-End Web Development: <b>HTML, CSS, JS</b>
-            </li>
-            <li>Trained in use of: <b>Arduino, TIA Portal</b></li>
-            <li>Well experienced in robotic systems building</li>
-          </ul>
-        </li>
-        <li>
-          <h3 id="analy-skills">Analytical Skills:</h3>
-          <ul>
-            <li>Proficient in Python</li>
-            <li>
-              Well practiced in Front-End Web Development: <b>HTML, CSS, JS</b>
-            </li>
-            <li>Trained in use of: <b>Arduino, TIA Portal</b></li>
-            <li>Well experienced in robotic systems building</li>
-          </ul>
-        </li>
-      </ol>
-    </div>
-    <div id="ed-pg" class="mainSec">
-      <h1 class="pg-title">My Academic Journey</h1>
-      <div class="ed-container" id="current-ed">
-        <h2>SE Factory Trainee</h2>
-        <h3>Attending Foundations of Computer Science Bootcamp</h3>
-        <h3>11 May, 2024 - July, 2024</h3>
+    <!--Section about Porjects Done-->
+    <div class="main-sec-style">
+      <div class="sec-headline" id="prj-pg">
+        <h1 class="pg-title">My Creations</h1>
       </div>
-      <hr />
-      <div class="ed-container">
-        <h2>Bachelor's of Engineering in Mechatronics Engineering</h2>
-        <h3>Rafik Hariri University</h3>
-        <h3>2020 - 2024</h3>
-      </div>
-
-      <hr />
-      <div class="ed-container">
-        <h2>Minored in Computer Science</h2>
-        <h3>Rafik Hariri University</h3>
-        <h3>2020 - 2024</h3>
+      <div class="main-sec">
+        <p>
+          This portfolio is a living example of my first and continuously
+          improving project during my learning path in Full Stack Web
+          Development
+        </p>
       </div>
     </div>
-    <div id="personal-int-pg" class="mainSec">
-      <h1 class="pg-title">Ibrahim's Other Life</h1>
-      <p>
-        I cherish the hobbies I have since they are the ones that keep me
-        focused on my goals in life. The primary one is Table Tennis. I started
-        playing it when I was 15 years old, and over the years I enhanced my
-        game level tremendously. Other hobbies that I like are Reading, cooking,
-        singing, and editing Videos.
-      </p>
-    </div>
-    <div id="testi-pg" class="mainSec">
-      <h1 class="pg-title">Glowing Testimonials</h1>
-      <ul id="testi-lst">
-        <li>
-          <q
-            >Ibrahim has proven to be an excellent team player with good
-            communication skills</q
-          >
-          <em>Dr. Ahmad Chaaban</em
-          ><i
-            >, Professor in Mechanical & Mechatronics Engineering Department at
-            Rafik Hariri University</i
-          >
-        </li>
-        <li>
-          <q
-            >Ibrahim has always expressed a deep interest in expanding his
-            technical knowledge</q
-          ><em>Dr. Ahmad Chaaban</em
-          ><i
-            >, Professor in Mechanical & Mechatronics Engineering Department at
-            Rafik Hariri University</i
-          >
-        </li>
-        <li>
-          <q
-            >Mr. Itani engaged in various projects and tasks eagerly seeking
-            opportunities to learn and contribute to the team</q
-          ><em>Eng. Hadi Al Katranji</em
-          ><i>, IoT Engineer at EKT Katrangi Bros</i>
-        </li>
-        <li>
-          <q
-            >One of Ibrahim's most noteworthy attributes was his willingness to
-            learn from his colleagues and mentors</q
-          ><em>Eng. Hadi Al Katranji</em
-          ><i>, IoT Engineer at EKT Katrangi Bros</i>
-        </li>
-      </ul>
-    </div>
-    <div id="contact-pg" class="mainSec">
-      <h1 class="pg-title">Let's Get in Touch</h1>
-      <p>You can contact me via email:<b>i.itani2002@gmail.com</b></p>
-      <p>
-        Let us connect on
-        <b
-          ><a href="https://www.linkedin.com/in/ibrahim-itani/" target="_blank"
-            >LinkedIn</a
-          ></b
-        >
-      </p>
+
+    <!--Section about Skills-->
+    <div class="main-sec-style">
+      <div class="sec-headline">
+        <h1 class="pg-title" id="skills-pg">
+          Skilltopia: Where Expertise Thrives
+        </h1>
+      </div>
+
+      <div class="main-sec">
+        <h3 class="main-skills-title">Technical Skills</h3>
+        <!--Each Main Skill Section is an ordered list-->
+        <ol class="main-skills-lst">
+          <li>
+            Proficient in programming langauges: Python, C++, Javascript,
+            Scratch
+          </li>
+          <li>
+            Experienced in Front-End Web Development: Html, CSS, Tailwind,
+            React, Next.js
+          </li>
+          <li>
+            Familiar with Database Management: SQL, Database Design, Query
+            Optimization
+          </li>
+          <li>
+            Proficient in Development Tools: Visual Studio Code, Visual Studio,
+            Git, Github
+          </li>
+          <li>Experienced in Microsoft Office Suite</li>
+        </ol>
+        <h3 class="main-skills-title">Soft Skills</h3>
+        <ol class="main-skills-lst">
+          <li>Professional Public Speaker in <b>Toastmasters</b></li>
+          <li>Effective Listener</li>
+          <li>Ability to work with a team and autonomously</li>
+          <li>Experienced motivational speaker</li>
+          <li>Ability to work under pressure</li>
+          <li>Skilled in using <b>Toggl</b> for efficient time tracking</li>
+          <li>
+            Proficient in utilizing collaboration platforms such as <b>Slack</b>
+          </li>
+        </ol>
+
+        <h3 class="main-skills-title">Analytical Skills</h3>
+        <ol class="main-skills-lst">
+          <li>Skilled in troubleshooting software bugs and logic errors</li>
+          <li>Competent in analyzing algorithm performance and efficiency</li>
+          <li>Proficient in optimizing software algorithms and code</li>
+          <li>
+            Experienced in prototyping and experimenting with new ideas and
+            concepts
+          </li>
+          <li>Demonstrated ability to think creatively</li>
+          <li>Effective at translating ideas into action</li>
+        </ol>
+      </div>
     </div>
 
+    <!--Education Section-->
+    <div class="main-sec-style">
+      <div class="sec-headline" id="ed-pg">
+        <h1 class="pg-title">My Academic Journey</h1>
+      </div>
+
+      <div class="main-sec">
+        <div class="ed-container" id="current-ed">
+          <h2>SE Factory Trainee</h2>
+          <h3>Attending Foundations of Computer Science Bootcamp</h3>
+          <h3>11 May, 2024 - July, 2024</h3>
+        </div>
+
+        <div class="ed-container">
+          <h2>Bachelor's of Engineering in Mechatronics Engineering</h2>
+          <h3>Rafik Hariri University</h3>
+          <h3>2020 - 2024</h3>
+        </div>
+
+        <div class="ed-container">
+          <h2>Minored in Computer Science</h2>
+          <h3>Rafik Hariri University</h3>
+          <h3>2020 - 2024</h3>
+        </div>
+      </div>
+    </div>
+    <!--Extra Activities Section-->
+    <div class="main-sec-style">
+      <div class="sec-headline">
+        <h1 class="pg-title">Ibrahim's Other Life</h1>
+      </div>
+
+      <div id="personal-int-pg" class="main-sec">
+        <p>
+          I cherish the hobbies I have since they are the ones that keep me
+          focused on my goals in life. The primary one is Table Tennis. I
+          started playing it when I was 15 years old, and over the years I
+          enhanced my game level tremendously. Other hobbies that I like are
+          Reading, cooking, singing, and editing Videos.
+        </p>
+      </div>
+    </div>
+
+    <!--Testimonials Section-->
+    <div class="main-sec-style">
+      <div class="sec-headline" id="testi-pg">
+        <h1 class="pg-title">Glowing Testimonials</h1>
+      </div>
+      <!--Thinking of making it as a carousel-->
+      <div class="main-sec">
+        <ul id="testi-lst">
+          <li class="testimonial">
+            <q
+              >Ibrahim has proven to be an excellent team player with good
+              communication skills</q
+            >
+            <em>Dr. Ahmad Chaaban</em
+            ><i
+              >, Professor in Mechanical & Mechatronics Engineering Department
+              at Rafik Hariri University</i
+            >
+          </li>
+
+          <li class="testimonial">
+            <q
+              >Ibrahim has always expressed a deep interest in expanding his
+              technical knowledge</q
+            ><em>Dr. Ahmad Chaaban</em
+            ><i
+              >, Professor in Mechanical & Mechatronics Engineering Department
+              at Rafik Hariri University</i
+            >
+          </li>
+
+          <li class="testimonial">
+            <q
+              >Mr. Itani engaged in various projects and tasks eagerly seeking
+              opportunities to learn and contribute to the team</q
+            ><em>Eng. Hadi Al Katranji</em
+            ><i>, IoT Engineer at EKT Katrangi Bros</i>
+          </li>
+
+          <li class="testimonial">
+            <q
+              >One of Ibrahim's most noteworthy attributes was his willingness
+              to learn from his colleagues and mentors</q
+            ><em>Eng. Hadi Al Katranji</em
+            ><i>, IoT Engineer at EKT Katrangi Bros</i>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Contact Me Section-->
+
+    <div id="contact-sec-style">
+      <div class="sec-headline" id="contact-pg">
+        <h1 class="pg-title">Let's Get in Touch</h1>
+      </div>
+      <div class="main-sec" id="contact-content">
+        <p>You can contact me via email:<b>i.itani2002@gmail.com</b></p>
+        <p>
+          Let us connect on
+          <b
+            ><a
+              href="https://www.linkedin.com/in/ibrahim-itani/"
+              target="_blank"
+              >LinkedIn</a
+            ></b
+          >
+        </p>
+      </div>
+    </div>
+
+    <!--For copyright & referrals-->
     <footer>
-      <p><strong>Referrals & CV are available upon request!</strong></p>
+      <p class="foot-content" style="margin-bottom: 10px">
+        <em>&copy; 2024 | Ibrahim Itani</em>
+      </p>
+      <p class="foot-content">
+        <strong>Referrals & CV are available upon request!</strong>
+      </p>
     </footer>
   </body>
 </html>
