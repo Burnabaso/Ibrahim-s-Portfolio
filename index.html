@@ -140,7 +140,7 @@
       <div class="sec-headline" id="projects">
         <h1>My Creations</h1>
       </div>
-      <div class="sec-content main-container" id="projects-content">
+      <div class="sec-content content-container" id="projects-content">
         <div class="project-container"></div>
         <div class="project-container"></div>
         <div class="project-container"></div>
@@ -222,7 +222,7 @@
       <div class="sec-headline" id="ed">
         <h1>My Academic Journey</h1>
       </div>
-      <div class="sec-content main-container content-container">
+      <div class="sec-content content-container">
         <div class="container">
           <h2>SE Factory Trainee</h2>
           <h3>Foundation of Computer Science Bootcamp</h3>
@@ -245,7 +245,7 @@
       <div class="sec-headline" id="hobbies">
         <h1>My Other Life</h1>
       </div>
-      <div class="sec-content">
+      <div class="sec-content" id="table-container">
         <table id="hobbies-table">
           <tr>
             <td>Table Tennis</td>
@@ -266,14 +266,8 @@
         <h1>Glowing Testimonials</h1>
       </div>
       <!-- apply carousel for testimonials -->
-      <div class="sec-content">
-        <div class="carousel" id="testi-carousel">
-          <input type="radio" name="testis" id="testi-1" checked>
-          <input type="radio" name="testis" id="testi-2">
-          <input type="radio" name="testis" id="testi-3">
-      
-          <div class="testis">
-            <div class="testi" id="testi1">
+      <div class="sec-content testi-container">
+            <div class="container testi">
               <h2><q>Ibrahim has proven to be an excellent team 
                 player with good communication skills</q></h2>
               <h3>Dr. Ahmad Chaaban</h3>
@@ -281,21 +275,14 @@
                 at Rafik Hariri University</i></h4>
                 
             </div>
-            <div class="testi" id="testi2">
+            <div class="container testi">
               <h2><q>Mr. Itani engaged in various projects and tasks eagerly 
                 seeking opportunities to learn and contribute to the team</q></h2>
               <h3>Eng Hadi Katrangi</h3>
               <h4><i>IoT Engineer at EKT Katrangi Bros</i></h4>
-                
             </div>
-          </div>
-          <div class="testi-navigation">
-            <label for="testi-1" class="nav-button"></label>
-            <label for="testi-2" class="nav-button"></label>
-            <label for="testi-3" class="nav-button"></label>
-          </div>
+          
         </div>
-      </div>
     </div>
     <!-- Section about Contact Me -->
     <div class="main-section">
@@ -307,7 +294,7 @@
           <h2><a href="mailto:i.itani2002@gmail.com" target="_blank">E-mail</a></h2>
         </div>
         <div class="container contact">
-          <h2><a href="https://www.linkedin.com/in/ibrahim-itani/" target="_blank">Linked In</a></h2>
+          <h2><a href="https://www.linkedin.com/in/ibrahim-itani/" target="_blank">LinkedIn</a></h2>
         </div>
         <div class="container contact">
           <h2><a href="https://github.com/Burnabaso" target="_blank">GitHub</a></h2>
@@ -316,11 +303,12 @@
     </div>
     <!--For copyright & referrals-->
     <footer>
-      <p class="foot-content" style="margin-bottom: 10px">
-        <em>&copy; 2024 | Ibrahim Itani</em>
-      </p>
       <p class="foot-content">
         <strong>Referrals & CV are available upon request!</strong>
+      </p>
+      <br style="height: 2px;">
+      <p class="foot-content" style="margin-bottom: 10px">
+        <em> &copy; 2024 Ibrahim Itani </em>
       </p>
     </footer>
 </html>

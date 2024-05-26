@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
+  transition: all 0.1s ease;
 }
 body {
   background-color: hsla(20, 80%, 50%, 0.2);
@@ -10,10 +11,7 @@ body {
 a{
   text-decoration: none;
 }
-span:hover{
-  font-weight: bold;
-  color: white;
-}
+
 #nav-bar-list {
   /* width,height,padding */
   width: 100%;
@@ -52,9 +50,21 @@ span:hover{
   
 }
 .main-section {
-  margin-bottom: 12.5vh;
+  margin-bottom: 10vh;
   margin-left: 0.5vw;
   margin: 2vw;
+}
+.main-section:hover .sec-headline
+{
+  transition-duration:1s ;
+  scale: 1.1;
+  color: white;
+  margin-left: 10px;
+}
+.main-section:hover span
+{
+  color: white;
+
 }
 .sec-headline {
   padding: 2vw;
@@ -62,7 +72,7 @@ span:hover{
   width: fit-content;
   border: 2px solid black;
   border-radius: 50px;
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 .sec-content {
   margin-top: 20px;
@@ -121,7 +131,7 @@ span:hover{
   width: 30vw;
   height: fit-content;
   position: relative;
-  top: 125px;
+  top: 100px;
 
 }
 #about-image img
@@ -141,7 +151,7 @@ span:hover{
   justify-content: space-around;
   flex-wrap: nowrap;
   width: 100%;
-  
+  height:fit-content
 }
 .container
 {
@@ -151,7 +161,7 @@ span:hover{
   margin: 0.5vw;
   padding: 1vw;
   background-color: rgba(172, 135, 197, 0.5);
-  
+  height: fit-content;
 }
 .container h2
 {
@@ -160,7 +170,7 @@ span:hover{
 }
 .container:hover
 {
-  scale: 1.02;
+  scale: 1.01;
   font-size: 1.8vw;
   color: black ;
   background-color: rgba(172, 135, 197, 1);
@@ -178,6 +188,48 @@ span:hover{
   background-color: #DC6B19;
   color: black;
   font-weight: bold;
+}
+#table-container
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#hobbies-table
+{
+  align-self: center;
+  border-spacing:30px ;
+}
+#hobbies-table td
+{
+  border: 2px solid rgba(183, 19, 117, 1);
+  background-color: rgba(183, 19, 117, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 20vw;
+  height: 5vh;
+}
+#hobbies-table td:hover{
+  scale: 1.06;
+  font-size: larger;
+  font-weight: bold;
+}
+.testi-container
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+  
+}
+.testi
+{
+  align-self: center;
+  width: 85vw;
+}
+.testi h2
+{
+  text-align: left;
 }
 .contact {
   border-radius: 20px;
