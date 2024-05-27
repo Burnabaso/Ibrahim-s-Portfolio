@@ -4,6 +4,7 @@
   font-family: "Times New Roman", Times, serif;
   transition: all 0.1s ease;
   box-sizing: border-box;
+  letter-spacing: 1px;
 }
 body {
   background-color: hsla(20, 80%, 50%, 0.2);
